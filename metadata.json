@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Salim Samet Portfolio & Demos",
+  "description": "A comprehensive portfolio featuring a landing page, technical skills showcase, and an interactive cloud upload dashboard demo.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
