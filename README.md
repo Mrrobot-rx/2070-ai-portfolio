@@ -1,104 +1,55 @@
-<div align="center">
+# 2070 AI Portfolio
 
-# 🚀 2070-ai-portfolio
+A modern, AI-powered developer portfolio built with TypeScript and Next.js. This project demonstrates best practices for building a fast, SEO-friendly portfolio that highlights AI projects and developer work.
 
-**portfolio from next gen**
+## Problem Statement
+Many developer portfolios are static and hard to maintain. This project provides a dynamic, component-driven portfolio scaffold optimized for performance and discoverability.
 
-[![License](https://img.shields.io/github/license/Mrrobot-rx/2070-ai-portfolio)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Mrrobot-rx/2070-ai-portfolio)](https://github.com/Mrrobot-rx/2070-ai-portfolio/stargazers)
-[![Issues](https://img.shields.io/github/issues/Mrrobot-rx/2070-ai-portfolio)](https://github.com/Mrrobot-rx/2070-ai-portfolio/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/Mrrobot-rx/2070-ai-portfolio)](https://github.com/Mrrobot-rx/2070-ai-portfolio/commits)
+## Features
+- Fast, SEO-optimized Next.js frontend
+- Component-driven architecture (React + TypeScript)
+- MDX or CMS-ready content setup
+- Responsive design and accessibility-focused components
+- Deployment-ready with Docker and GitHub Actions
 
-</div>
+## Tech Stack
+- Next.js + React
+- TypeScript
+- Tailwind CSS (optional)
+- Vercel / Docker for deployment
 
----
+## Installation
+1. Clone the branch:
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+   git clone https://github.com/Mrrobot-rx/2070-ai-portfolio.git
+   cd 2070-ai-portfolio
+   git checkout improvements/2070-ai-portfolio
 
----
+2. Install dependencies:
 
-## 🌟 Overview
+   npm install
 
-portfolio from next gen This project demonstrates professional engineering standards and high-quality TypeScript implementation.
+3. Run locally:
 
----
+   npm run dev
 
-## ✨ Features
+## Environment
+Create a .env file from the provided example:
 
-- ⚡ **High Performance** — Optimized for speed and efficiency.
-- 🔒 **Secure by Design** — Built with security best practices.
-- 🎯 **Modern Architecture** — Clean code and scalable structure.
+cp .env.example .env
 
----
+## Usage
+- Edit content in the `src` (or `pages`) directory to customize your portfolio.
+- Add projects to the `data/projects` or `content` folder if present.
 
-## 🛠️ Tech Stack
+## Screenshots
+Add screenshots to `assets/screenshots/` and reference them here.
 
-| Layer | Technology |
-|-------|-----------|
-| Language | TypeScript |
-| Tooling | GitHub Actions, Git |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
-# Ensure you have the necessary environment
-git --version
-```
-
-### Installation
-```bash
-git clone https://github.com/Mrrobot-rx/2070-ai-portfolio.git
-cd 2070-ai-portfolio
-```
+## Roadmap
+- Add CMS integration (Sanity/Contentful/Notion)
+- Add automated tests and visual regression testing
+- Add internationalization support
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-Made with ❤️ by <a href="https://github.com/Mrrobot-rx">Mrrobot-rx</a>
-</div>
-
-
----
-*Section ajoutée par Manus*
-
-# 2070-ai-portfolio
-
-portfolio from next gen
-
-## Badges
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Language](https://img.shields.io/badge/language-TypeScript-blue.svg)](https://github.com/Mrrobot-rx/2070-ai-portfolio)
-
-## Fonctionnalités
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
-## Comment l'exécuter localement
-1. Clonez le dépôt : `git clone https://github.com/Mrrobot-rx/2070-ai-portfolio.git`
-2. Naviguez vers le répertoire du projet : `cd 2070-ai-portfolio`
-3. Ouvrez `index.html` dans votre navigateur ou suivez les instructions spécifiques au projet.
-
-## Crédits
-Développé par Mrrobot-rx.
+For contribution guidelines, see CONTRIBUTING.md
